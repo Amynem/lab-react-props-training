@@ -1,7 +1,7 @@
-import visaLogo from '../../assets/images/visa.png';
-import mCardLogo from '../../assets/images/master-card.svg';
+import visaLogo from '../../images/visa.png';
+import mCardLogo from '../../images/master-card.svg';
 
-import './credit-card.css';
+import './creditCard.css';
 
 function CreditCard({ className = '', card, color, bgColor }) {
   const { type, number, expirationMonth, expirationYear, bank, owner } = card;
